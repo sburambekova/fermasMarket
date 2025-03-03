@@ -178,6 +178,3 @@ You may check endpoints at http://127.0.0.1:8000/docs .
 - PATCH /products/{product_id}/comments/{comment_id}: Modify a comment on a product listing.
 - DELETE /products/{product_id}/comments/{comment_id}: Delete a comment on a product listing.
 
-## Author ##
-
-Developed by Dinmukhamed Albek.
