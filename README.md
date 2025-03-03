@@ -117,37 +117,8 @@ Farmer Market is a platform that connects farmers and buyers within Kazakhstan, 
 ```
 
 
-## **Installation**
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/dimalbek/FarmerMarket.git
-    cd FarmerMarket/backend
-    ```
-
-2. **Set up a Virtual Environment (optional but recommended)**:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate
-    ```
-
-3. **Install Dependencies**:
-    ```bash
-    pipx install poetry  # If not installed
-    poetry install
-    ```
-
-4. **Initialize the Database**:
-    ```bash
-    alembic upgrade head
-    ```
-
-5. **Run the Application**:
-    ```bash
-    uvicorn app.main:app --reload
-    ```
-
-The API will now be accessible at http://127.0.0.1:8000 .
+The API will be accessible at http://127.0.0.1:8000 .
 You may check endpoints at http://127.0.0.1:8000/docs .
 
 ## **API Endpoints**
